@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+
   <b-container fluid min-height="800px" class="bv-example-row">
   <b-row align="left">
     <b-col cols="6"><b-form-input placeholder="Enter your name"></b-form-input></b-col>
@@ -8,9 +8,11 @@
     <b-col><span>this is a test</span></b-col>
     <b-col><b-button>Add Entry</b-button></b-col>
   </b-row>
-  
+
 
   <b-row><b-col><p>T</p></b-col></b-row>
+  <b-row><b-col><p>U</p></b-col></b-row>
+
 
   <b-row class="testing-greg">
     <b-col cols="4" >
@@ -38,7 +40,7 @@
 </b-list-group>
     </b-col>
     <b-col cols="8"><button v-on:click="getData">My Button</button></b-col>
-    
+
   </b-row>
 </b-container>
     <!-- <img alt="Vue logo" src="./assets/logo.png -->
@@ -67,11 +69,11 @@ export default {
   },
   methods: {
     getData () {
-      
+
       main();
- 
-  
-   
+
+
+
     }
 
   }
