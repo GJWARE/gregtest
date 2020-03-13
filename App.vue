@@ -10,7 +10,7 @@
   </b-row>
   
 
-  <b-row><b-col><p>T</p></b-col></b-row>
+  <b-row><b-col><p>TigerLilly</p></b-col></b-row>
 
   <b-row class="testing-greg">
     <b-col cols="4" >
